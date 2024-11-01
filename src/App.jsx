@@ -1,20 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
-import Countdown from './components/Countdown';
-import Links from './components/Links';
-import Footer from './components/Footer';
+import Hero from './components/Hero';
+import './components/Hero.css';
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Header />
-        <Countdown />
-        <Links />
-        <Footer />
-      </div>
-    </>
+    <div className="App">
+      <Hero />
+    </div>
   );
 }
 
-export default App
+export default App;
