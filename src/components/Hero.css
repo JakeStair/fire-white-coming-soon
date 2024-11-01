@@ -40,17 +40,18 @@
   }
   
   .links a {
-    display: block;
-    margin: 10px 0;
-    color: #0073e6;
+    display: inline;
+    margin: 10px 20px;
+    color: rgb(255, 224, 168);
     text-decoration: none;
-  }
-  
-  .links a:hover {
-    text-decoration: underline;
   }
   
   h1 {
     font-size: 2.5rem;
   }
   
+
+  a:hover {
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+  }
